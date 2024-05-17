@@ -1,60 +1,38 @@
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Шеф-повар</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center; /* Выравнивание текста по центру */
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            margin-top: auto; /* Футер будет всегда прижат к нижнему краю страницы */
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать на сайт шеф-повара!</h1>
-        <nav>
-            <ul>
-                <li><a href="recipes.html">Рецепты</a></li>
-                <li><a href="blog.html">Блог</a></li>
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="contact.html">Контакты</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Добро пожаловать на сайт шеф-повара!</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="recipes.html">Рецепты</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    
-    <section>
-        <h2>О нас</h2>
-        <p>Мы - команда профессиональных поваров, готовых поделиться с вами нашими лучшими рецептами и секретами кулинарного искусства.</p>
-        <p>Приготовьтесь к волшебству в вашей кухне!</p>
+    <section class="intro">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы - команда профессиональных поваров, готовых поделиться с вами нашими лучшими рецептами и секретами кулинарного искусства.</p>
+            <p>Приготовьтесь к волшебству в вашей кухне!</p>
+        </div>
     </section>
 
     <footer>
-        <p>© 2024 Шеф-повар. Все права защищены.</p>
+        <div class="container">
+            <p>© 2024 Шеф-повар. Все права защищены.</p>
+        </div>
     </footer>
 </body>
 </html>
