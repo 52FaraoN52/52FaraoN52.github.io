@@ -8,6 +8,7 @@ body {
     background-image: url('background.jpg'); /* Путь к вашему фоновому изображению */
     background-size: cover;
     background-position: center;
+    color: #333;
 }
 
 .container {
@@ -59,12 +60,6 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.content {
-    background: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон для читаемости текста */
-    padding: 20px;
-    border-radius: 10px;
-}
-
 footer {
     background-color: rgba(51, 51, 51, 0.8);
     color: #fff;
@@ -76,4 +71,3 @@ footer {
 footer p {
     margin: 0;
 }
-
