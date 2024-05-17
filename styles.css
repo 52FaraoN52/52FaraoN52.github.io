@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('fon.png'); /* Путь к вашему фоновому изображению */
+    background-image: url('background.png'); /* Путь к вашему фоновому изображению */
     background-size: cover;
     background-position: center;
     color: #333;
