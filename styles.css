@@ -1,26 +1,40 @@
-/* Общие стили */
+
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('background.jpg'); /* Путь к вашему фоновому изображению */
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон для читаемости текста */
+    border-radius: 10px;
 }
 
-header, footer {
-    background-color: #333;
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Полупрозрачный черный фон */
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -32,21 +46,34 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
 }
 
-/* Стили для главной страницы */
-.hero {
-    background-image: url('chef-cook-hero.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
+nav ul li a:hover {
+    color: #ccc;
+}
+
+.intro {
+    padding: 20px 0;
+    flex-grow: 1;
     text-align: center;
-    padding: 100px 0;
 }
 
-.hero h2 {
-    font-size: 36px;
+.intro h2 {
+    font-size: 24px;
     margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
 }
 
 .hero p {
