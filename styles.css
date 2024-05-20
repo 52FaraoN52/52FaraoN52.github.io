@@ -6,9 +6,9 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 0;
+    min-height: 100hv;
     background-image: url('background.png'); /* Путь к вашему фоновому изображению */
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     color: #333;
 }
