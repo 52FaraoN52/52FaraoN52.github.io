@@ -8,13 +8,13 @@ body {
     flex-direction: column;
     min-height: 100hv;
     background-image: url('background.png'); /* Путь к вашему фоновому изображению */
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     color: #333;
 }
 
 .container {
-    max-width: 0px;
+    max-width: 120px;
     margin: 0 auto;
     padding: 0 20px;
 }
