@@ -1,26 +1,24 @@
-
 body {
     font-family: Arial, sans-serif;
- 
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100hv;
-    background-image: url('background.png'); /* Путь к вашему фоновому изображению */
+    min-height: 100vh;
+    background-image: url('background.png');
     background-size: cover;
     background-position: center;
     color: #333;
 }
 
 .container {
-    max-width: 120px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Полупрозрачный черный фон */
+    background-color: rgba(51, 51, 51, 0.8);
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -42,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff; /* Белый цвет текста */
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
 }
@@ -67,10 +65,8 @@ footer {
     color: #fff;
     padding: 100px 0;
     text-align: center;
-    margin-top: auto;
 }
 
 footer p {
     margin: 0;
 }
-
